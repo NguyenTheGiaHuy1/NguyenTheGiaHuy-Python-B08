@@ -3,7 +3,6 @@ Harry_Potter = {
     "time" : 2000,
     "character" : ['Harry Potter', 'Hermione Granger', 'Ronnal Weasley', 
     'Draco Mafoy', 'Albus Dumbledore']
-    
 }
 m = 0
 print("Chọn nhân vật chính của truyện Harry Potter:")
@@ -15,9 +14,7 @@ print("A",A)
 print("B",B)
 print("C",C)
 print("D",D)
-  
 n = input("Nhập câu trả lời:")
-
 if n.upper()=="B":
     print("Bạn đã trả lời đúng")
     m = m+1
@@ -29,30 +26,24 @@ print("A",2002)
 print("B",2001)
 print("C",2003)
 print("D",Harry_Potter["time"])
-
 n = input("Nhập câu trả lời:")
-
 if n.upper()=="D":
     print("Bạn đã trả lời đúng")
     m = m+1
 else:
     print("Bạn đã trả lời sai")
 
-
-
 print("Chọn tên của truyện:")
 print("A","Sherlock Holmes")
 print("B",Harry_Potter["name"])
 print("C","Conan")
 print("D","Yaiba")
-
 n = input("Nhập câu trả lời:")
 if n.upper()=="B":
     print("Bạn đã trả lời đúng")
     m = m+1
 else:
     print("Bạn đã trả lời sai")
-
 
 print("Số câu bạn trả lời đúng là:",m)
 print("Tỉ lệ trả lời đúng của bạn là:",m/3*100,"%")
